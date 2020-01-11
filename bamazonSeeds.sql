@@ -14,7 +14,7 @@ CREATE TABLE products(
 );
 
 INSERT INTO products (item_id, product_name, price)
-VALUES (12, "water 12 pack", 10);
+VALUES (12, "water 12 pack", 15);
 
 INSERT INTO products (item_id, product_name, price)
 VALUES (9000, "The BFG 9000", 9000);
