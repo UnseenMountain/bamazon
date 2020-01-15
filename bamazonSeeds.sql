@@ -5,11 +5,11 @@ USE bamazonDB;
 
 CREATE TABLE products(
   id INT NOT NULL AUTO_INCREMENT,
-  item_id DECIMAL NULL
-  product_name VARCHAR(45) NULL,
+  item_id DECIMAL NULL,
+  product_name VARCHAR(105) NULL,
   department_name VARCHAR(45) NULL,
   price DECIMAL(45) NULL,
-  Stock_quantity DECIMAL()NULL,
+  Stock_quantity DECIMAL(10,4)NULL,
   PRIMARY KEY (id)
 );
 
@@ -26,7 +26,7 @@ INSERT INTO products (item_id, product_name, price)
 VALUES (51, "A portal to Hell", 666);
 
 INSERT INTO products (item_id, product_name, price)
-VALUES (999, "the pretor suit in case some one bought the previous product", 92);
+VALUES (999, "the pretor suit", 92);
 
 INSERT INTO products (item_id, product_name, price)
 VALUES (100, "an AI companion", 234);

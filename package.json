@@ -5,6 +5,8 @@
   "main": "bamazon.js",
   "dependencies": {
     "axios": "^0.19.1",
+    "console.table": "^0.10.0",
+    "inquirer": "^7.0.3",
     "mysql": "^2.17.1"
   },
   "devDependencies": {},
